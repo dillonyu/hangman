@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 #   Windows: #!python3
 #
-#   Hangman game for Chinese sentences.
+#   Hangman game
 #
 #   Dillon Yu
 #
@@ -149,7 +149,7 @@ def main():
     if numWrong < numTries:
         print('Congratulations! You win!')
     else:
-        print('\nSorry, you lose. The correct sentence was ' + ''.join(ans) + '。')
+        print('\nSorry, you lose. The correct sentence was ' + ''.join(ans))
 
     # restart game here
     print('Would you like to play again? (Y/N)')
